@@ -61,10 +61,11 @@ An Ubuntu web server instance is launched in the subnet, and Apache2 is installe
    ```bash
    terraform init
 Plan the infrastructure changes:
-terraform plan
-
+   
+    terraform plan
 Apply the infrastructure changes:
-terraform apply
+
+    terraform apply
 
 Access the web server using the public IP address provided in the Terraform output.
 
@@ -75,7 +76,8 @@ server_id: The ID of the web server instance.
 
 Cleanup
 To destroy the created resources and clean up the infrastructure:
-terraform destroy
+
+     terraform destroy
 Be cautious when running this command, as it will remove all created AWS resources.
 
 License
